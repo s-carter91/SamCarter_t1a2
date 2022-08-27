@@ -38,7 +38,7 @@ a {
 }
 
 main {
-  background: url(Images/jamie-mcglinchey-q19ZRZE4tGI-unsplash.jpg);
+  background: url(/Images/jamie-mcglinchey-q19ZRZE4tGI-unsplash.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
