@@ -1,0 +1,52 @@
+@import url(global.css);
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: space-between;
+}
+
+label {
+  display: block;
+}
+
+input, #message {
+  border: solid 2px black;
+}
+
+main p {
+  margin: 1em 0.2em;
+}
+
+fieldset {
+  margin-top: 1em;
+  border: solid 5px white;
+}
+
+legend {
+  border-top-left-radius: 3px solid yellow;
+}
+
+button {
+  margin: 1em 0;
+  background: orange;
+  color: blueviolet;
+  font-size: 2em;
+}
+
+.logo-container {
+  margin-top: 1em;
+}
+
+@media only screen and (min-device-width: 900px) {
+  .logo-container {
+    width: 713px;
+  }
+}/*# sourceMappingURL=contactme.css.map */

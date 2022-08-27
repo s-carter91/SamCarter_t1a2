@@ -1,0 +1,246 @@
+@import url(global.css);
+
+$back-color: lightseagreen;
+
+@keyframes review-cycle {
+    0%, 100% {
+        content: "Bananas were going old and stale (and brown). Sam's site has turned them ripe again! - Bananaguy1984";
+    }
+    25% {
+        content: "The band site that Sam created for Muse is better than their official site - MuseLover642";
+    }
+    50% {
+        content: "The Banana recipe site is the best thing since sliced (banana) bread - Anonymous";
+    }
+    75% {
+        content: "It's great to see new talent coming through in the field of Web Development - Samsmum55";
+    }
+}
+
+@keyframes rainbow-cycle {
+    0%, 100% {
+        background-color: red
+    }
+    12.5% {
+        background-color: orange;
+    }
+    25% {
+        background-color: yellow;
+    }
+    37.5% {
+        background-color: green
+        }
+    50% {
+        background-color: blue;
+    }
+    62.5% {
+        background-color: indigo;
+    }
+    75% {
+        background-color: violet;
+    }
+    87.5% {
+        background-color: rgb(204, 200, 200);
+    }
+}
+
+@keyframes spinner-zoom {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg)
+        scale(2,2)
+    }
+}
+
+@keyframes stretchy {
+    0%,100% {
+        transform: skew(0deg)
+    }
+    25% {
+        transform: skew(55deg)
+     }
+    75% {
+        transform: skew(-55deg)
+    }
+}
+
+main{
+    padding-bottom: 0;
+}
+
+#reviews{
+    background: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 170px;
+    color: white;
+    text-align: center;
+    padding-top: 0.1em;
+}
+
+#skills-experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+#skills-experience h2{
+    text-align: center;
+}
+
+#box-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#box-container div:nth-child(1) {
+    margin-top: 2em;
+}
+
+.boxes {
+    width: 80px;
+    height: 80px;
+    max-width: 80px;
+    background-color: aliceblue;
+    margin: 3em;
+}
+
+#stretch-box {
+    margin-bottom: 5em;
+}
+
+
+#reviews p{
+    // color: black;
+    // text-shadow: 1px 1px 1px black;
+    font-style: italic;
+}
+
+#reviews p::after {
+    content: "";
+    animation: review-cycle 30s linear infinite;
+}
+
+#rainbow-box:hover {
+    animation-name: rainbow-cycle;
+    animation-duration: 10s;
+}
+
+#spin-box:hover {
+    animation: spinner-zoom 5s alternate infinite;
+}
+
+#stretch-box:hover {
+    animation: stretchy 4s;
+}
+
+// Past Projects
+
+#past-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#muse-images {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#muse-images img {
+    margin: 0.5em 1em;
+    width: 100%;
+    max-width: fit-content;
+}
+
+#muse-images p {
+    margin-bottom: 0;
+    align-self: center;
+}
+#muse-images div {
+    text-align: center;
+}
+
+#resume {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: lightgrey;
+    padding: 1em;
+}
+
+#resume a:nth-child(2n+1) {
+    border: black solid 2px;
+    background-color: white;
+    padding: 0.4em;
+    text-align: center;
+    width: 35%;
+    // margin: .5em 1em;
+    text-decoration: none;
+    color: $back-color;
+}
+
+#resume a:nth-child(2){
+    width: 12%;
+    height: 70%;
+    max-width: 50px;
+    min-width: 20px;
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 899px){
+    #box-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+
+    }
+    #box-container div {
+        margin-top: 2em;
+    }
+
+    #stretch-box {
+        margin-bottom: 3em;
+    }
+    #reviews {
+        min-height: 140px;
+    }
+}
+
+@media only screen and (min-device-width: 900px){
+    #box-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+
+    }
+    #box-container div {
+        margin-top: 2em;
+    }
+
+    #reviews {
+        min-height: 145px;
+    }
+
+    #stretch-box {
+        margin-bottom: 3em;
+    }
+
+    #muse-images {
+        flex-flow: row wrap;
+        align-items: center;
+
+    }
+    #muse-images img {
+        display: inline-block;
+    }
+}

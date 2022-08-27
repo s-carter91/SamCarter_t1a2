@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactme.css">
+    <title>Contact Me - Sam Carter</title>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <a href="index.html">Home</a>
+            <a href="professional-about-me.html">Projects</a>
+            <a href="aboutme.html">About me</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+    </header>
+    <main>
+        <header><h2>Contact Me</h2></header>
+        <form id="contact-container" action="mailto:13502@coderacademy.edu.au" method="post">
+            <div id="input-container">
+            <p>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" required>
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </p>
+            <p>
+                <label for="phone">Phone Number</label>
+                <input type="tel" name="phone" id="phone" required>
+            </p>
+            <p>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="3"></textarea>
+            </p>
+            </div>
+            <fieldset>
+                <legend>Preferred Contact Method</legend>
+                <p>
+                    <label for="contactmethod1">Phone Call</label>
+                    <input type="radio" name="contactmethod" id="contactmethod1" value="phonecall" required>
+                </p>
+                <p>
+                    <label for="contactmethod2">Email</label>
+                    <input type="radio" name="contactmethod" id="contactmethod2" value="email" required>
+                </p>
+                <p>
+                    <label for="Urgent">Urgent Reply Required</label>
+                    <input type="checkbox" name="Urgent" id="Urgent" value="Urgent" required>
+                </p>
+            </fieldset>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+        </form>
+        <p>Thank you for reaching out and don't forget to follow me by visiting the following links:</p>
+        <div class="logo-container">
+            <a class="logo"href="https://www.instagram.com/carter91" target="_blank"> <img src="/Images/instagram-svgrepo-com.svg"> </a>
+            <a class="logo"href="https://www.twitter.com/CoderCarter" target="_blank"> <img src="/images/Twitter-logo.svg"> </a>
+            <a class="logo"href="https://www.linkedin.com/in/sam-carter-52b5ba235" target="_blank"> <img src="/images/linkedin.svg"> </a>
+            <a class="logo"href="https://github.com/s-carter91" target="_blank"> <img src="/images/github-svgrepo-com.svg"> </a>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2022 Sam Carter</p>
+    </footer>
+</body>
+</html>

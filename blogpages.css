@@ -1,0 +1,25 @@
+@import url(global.css);
+main {
+  background-color: blue;
+}
+
+a {
+  color: orange;
+}
+
+img {
+  width: 90%;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.blog-article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caption {
+  margin-top: 0.8em;
+}/*# sourceMappingURL=blogpages.css.map */
