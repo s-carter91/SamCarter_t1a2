@@ -1,4 +1,4 @@
-@import url(/src/css/global.css);
+@import url(/css/global.css);
 @-webkit-keyframes review-cycle {
   0%, 100% {
     content: "Bananas were going old and stale (and brown). Sam's site has turned them ripe again! - Bananaguy1984";
