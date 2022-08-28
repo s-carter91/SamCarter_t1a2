@@ -4,13 +4,13 @@ Github Link - https://github.com/s-carter91/T1A2-Portfolio
 
 ---
 
-##Purpose
+##  Purpose
 
 The purpose of the Portfolio website I have created is to showcase my HTML and CSS skills which have been recently learnt. This site can be a basis for which I can continue to build on with continued knowledge and experience. Any further project can be added to the Projects page along with general updates to the sites functionality once I have consumed more information.
 
 ---
 
-##Functionality and Feautures
+##  Functionality and Feautures
 
 The site was created to be responsive on all pages from resolutions of 320 x 568 (iPhone 5) up to full desktop resolutions. The portfolio was created with semantics heavily in mind so it could be read by screen readers if needed. Everything was marked up to have meaning with limited div and span elements used as containers for visual effects. 
 
@@ -24,14 +24,19 @@ The features of the site were implemented to support the belief that the creator
 
 ---
 
-##Sitemap
+##  Sitemap
+
+Created using Figma
 
 ![Sitemap Image](/screenshots/Site%20Map.png)
 
+## Screenshots
 
 
 
+##  Target Audience
 
+The target audience that is being hoped for here is potential employers in the IT field.
 
 
 

@@ -1,7 +1,8 @@
-@import url(global.css);
+@import url(/css/global.css);
 
 $back-color: lightseagreen;
 
+// rotating reviews applied to #reviews p
 @keyframes review-cycle {
     0%, 100% {
         content: "Bananas were going old and stale (and brown). Sam's site has turned them ripe again! - Bananaguy1984";
@@ -17,6 +18,7 @@ $back-color: lightseagreen;
     }
 }
 
+// color changing box applied to #rainbow-box
 @keyframes rainbow-cycle {
     0%, 100% {
         background-color: red
@@ -44,6 +46,7 @@ $back-color: lightseagreen;
     }
 }
 
+// spinning box applied to #spin-box
 @keyframes spinner-zoom {
     from {
         transform: rotate(0deg)
@@ -54,6 +57,7 @@ $back-color: lightseagreen;
     }
 }
 
+// stretching box applied to #stretch-box
 @keyframes stretchy {
     0%,100% {
         transform: skew(0deg)
@@ -93,6 +97,7 @@ main{
     text-align: center;
 }
 
+// CSS effects/animation hover boxes
 #box-container div {
     display: flex;
     flex-direction: column;
@@ -116,13 +121,11 @@ main{
     margin-bottom: 5em;
 }
 
-
 #reviews p{
-    // color: black;
-    // text-shadow: 1px 1px 1px black;
     font-style: italic;
 }
 
+// CSS effects and animation rules
 #reviews p::after {
     content: "";
     animation: review-cycle 30s linear infinite;
@@ -158,9 +161,9 @@ main{
 }
 
 #muse-images img {
-    margin: 0.5em 1em;
-    width: 100%;
-    max-width: fit-content;
+    padding: 0.5em 0;
+    padding-right: 1em;
+    width: 90%;
 }
 
 #muse-images p {
@@ -182,12 +185,13 @@ main{
 #resume a:nth-child(2n+1) {
     border: black solid 2px;
     background-color: white;
-    padding: 0.4em;
+    padding: 0.2em;
     text-align: center;
     width: 35%;
     // margin: .5em 1em;
     text-decoration: none;
     color: $back-color;
+    font-size: 0.9em;
 }
 
 #resume a:nth-child(2){
@@ -197,50 +201,39 @@ main{
     min-width: 20px;
 }
 
-@media only screen and (min-device-width: 600px) and (max-device-width: 899px){
+@media only screen and (min-device-width: 600px){
     #box-container {
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
-
+        justify-content: space-evenly
     }
     #box-container div {
         margin-top: 2em;
     }
-
     #stretch-box {
         margin-bottom: 3em;
     }
+    #resume a:nth-child(2n+1) {
+            padding: 0.5em;
+    }    
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 899px){
     #reviews {
         min-height: 140px;
     }
 }
 
 @media only screen and (min-device-width: 900px){
-    #box-container {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-evenly;
-
-    }
-    #box-container div {
-        margin-top: 2em;
-    }
-
     #reviews {
         min-height: 145px;
-    }
-
-    #stretch-box {
-        margin-bottom: 3em;
     }
 
     #muse-images {
         flex-flow: row wrap;
         align-items: center;
-
     }
     #muse-images img {
-        display: inline-block;
+        width: 100%;
     }
 }

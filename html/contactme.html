@@ -18,8 +18,9 @@
     </header>
     <main>
         <header><h2>Contact Me</h2></header>
+        <div id="form-container">
         <form id="contact-container" action="mailto:13502@coderacademy.edu.au" method="post">
-            <div id="input-container">
+            <!-- <div id="input-container"> -->
             <p>
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" required>
@@ -34,9 +35,9 @@
             </p>
             <p>
                 <label for="message">Message</label>
-                <textarea name="message" id="message" rows="3"></textarea>
+                <textarea name="message" id="message" rows="5"></textarea>
             </p>
-            </div>
+            <!-- </div> -->
             <fieldset>
                 <legend>Preferred Contact Method</legend>
                 <p>
@@ -52,18 +53,28 @@
                     <input type="checkbox" name="Urgent" id="Urgent" value="Urgent" required>
                 </p>
             </fieldset>
-            <p>
+            <p id="button-container">
                 <button type="submit">Send</button>
             </p>
         </form>
-        <p>Thank you for reaching out and don't forget to follow me by visiting the following links:</p>
+        <section id="contact-details">
+        <p>Feel free to also reach out to me directly through the following means:</p>
+            <ul>
+                <li>Email: scarter1991@gmail.com</li>
+                <li>Phone: 0422 300 858</li>
+            </ul>
+        </section>
+        </div>
+     </main>
+        <section class="socials">
+        <p>Thank you for reaching out and don't forget to follow me using the below links:</p>
         <div class="logo-container">
             <a class="logo"href="https://www.instagram.com/carter91" target="_blank"> <img src="/Images/instagram-svgrepo-com.svg"> </a>
             <a class="logo"href="https://www.twitter.com/CoderCarter" target="_blank"> <img src="/images/Twitter-logo.svg"> </a>
             <a class="logo"href="https://www.linkedin.com/in/sam-carter-52b5ba235" target="_blank"> <img src="/images/linkedin.svg"> </a>
             <a class="logo"href="https://github.com/s-carter91" target="_blank"> <img src="/images/github-svgrepo-com.svg"> </a>
         </div>
-    </main>
+        </section>
     <footer>
         <p>&copy; 2022 Sam Carter</p>
     </footer>

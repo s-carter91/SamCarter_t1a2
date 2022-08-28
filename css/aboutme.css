@@ -39,9 +39,6 @@ h2 {
   display: inline-block;
   width: 100%;
   z-index: 1;
-  max-width: -webkit-max-content;
-  max-width: -moz-max-content;
-  max-width: max-content;
 }
 
 #images .pic-container:hover p {
@@ -57,14 +54,13 @@ footer {
 
 @media only screen and (min-device-width: 900px) {
   main {
-    height: 142vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
 }
-@media only screen and (min-device-width: 1145px) {
+@media only screen and (min-device-width: 1139px) {
   main {
-    height: 115vh;
+    height: 95vh;
   }
 }/*# sourceMappingURL=aboutme.css.map */

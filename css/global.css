@@ -46,6 +46,19 @@ main {
   margin-top: 30px;
 }
 
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: lightseagreen;
+  text-align: center;
+  padding: 0em 0.2em;
+}
+
+.socials p {
+  margin: 0.5em 0;
+}
+
 .logo-container {
   display: flex;
   justify-content: space-evenly;

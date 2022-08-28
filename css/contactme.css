@@ -4,13 +4,16 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 0;
 }
 
 form {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: space-between;
+  background-color: #196394;
+  margin: 0.2em;
+  padding: 0 0.6em;
 }
 
 label {
@@ -25,6 +28,10 @@ main p {
   margin: 1em 0.2em;
 }
 
+textarea {
+  width: 100%;
+}
+
 fieldset {
   margin-top: 1em;
   border: solid 5px white;
@@ -34,19 +41,50 @@ legend {
   border-top-left-radius: 3px solid yellow;
 }
 
+#button-container {
+  display: flex;
+  justify-content: center;
+}
+
 button {
-  margin: 1em 0;
-  background: orange;
-  color: blueviolet;
+  margin: 0.5em 0;
+  background: lightseagreen;
+  color: white;
   font-size: 2em;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.656);
+}
+
+#contact-details {
+  padding: 1em 0;
 }
 
 .logo-container {
-  margin-top: 1em;
+  padding: 0 1em;
 }
 
+@media only screen and (min-device-width: 600px) {
+  textarea {
+    width: 100%;
+  }
+}
 @media only screen and (min-device-width: 900px) {
   .logo-container {
     width: 713px;
+  }
+  #form-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 2em;
+  }
+  form {
+    width: 50%;
+  }
+  #contact-details {
+    width: 40%;
+    background: #196394;
+    padding: 0 0.5em;
   }
 }/*# sourceMappingURL=contactme.css.map */
