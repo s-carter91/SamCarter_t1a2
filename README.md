@@ -2,6 +2,8 @@
 
 ## [Github Link] (https://github.com/s-carter91/T1A2-Portfolio)
 
+## [Vimeo Portfolio Presentation] (https://vimeo.com/743906705)
+
 ---
 
 ##  Purpose
