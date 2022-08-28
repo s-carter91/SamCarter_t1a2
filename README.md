@@ -70,7 +70,7 @@ The target audience that is being hoped for here is potential employers in the I
 
 ## Technology Stack
 
-Portfolio website: HTML5 and CSS3 - Visual Studio Code
-Image resizing: Microsoft Powerpoint
-Image file type editing: Preview (Mac)
+Portfolio website: HTML5 and CSS3 - Visual Studio Code  
+Image resizing: Microsoft Powerpoint  
+Image file type editing: Preview (Mac)  
 Website deployment: Github and Netlify
