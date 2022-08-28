@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/contactme.css">
+    <link rel="icon" type="image/svg" href="/images/Sam-Face.svg">
     <title>Contact Me - Sam Carter</title>
 </head>
 <body>
@@ -18,9 +19,9 @@
     </header>
     <main>
         <header><h2>Contact Me</h2></header>
-        <div id="form-container">
+        <section id="form-container">
+            <!-- form to generate an email when submit button is pressed -->
         <form id="contact-container" action="mailto:13502@coderacademy.edu.au" method="post">
-            <!-- <div id="input-container"> -->
             <p>
                 <label for="name">Name</label>
                 <input type="text" name="name" id="name" required>
@@ -37,7 +38,6 @@
                 <label for="message">Message</label>
                 <textarea name="message" id="message" rows="5"></textarea>
             </p>
-            <!-- </div> -->
             <fieldset>
                 <legend>Preferred Contact Method</legend>
                 <p>
@@ -57,14 +57,14 @@
                 <button type="submit">Send</button>
             </p>
         </form>
-        <section id="contact-details">
+        <div id="contact-details">
         <p>Feel free to also reach out to me directly through the following means:</p>
             <ul>
                 <li>Email: scarter1991@gmail.com</li>
                 <li>Phone: 0422 300 858</li>
             </ul>
-        </section>
         </div>
+    </section>
      </main>
         <section class="socials">
         <p>Thank you for reaching out and don't forget to follow me using the below links:</p>
