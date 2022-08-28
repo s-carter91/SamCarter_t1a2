@@ -1,8 +1,8 @@
-## ![Porfolio Website Link] (https://fanciful-crepe-bb0041.netlify.app/)
+## Porfolio Website Link - (https://fanciful-crepe-bb0041.netlify.app/)
 
-## ![Github Link] (https://github.com/s-carter91/T1A2-Portfolio)
+## Github Link - (https://github.com/s-carter91/T1A2-Portfolio)
 
-## ![Vimeo Portfolio Presentation] (https://vimeo.com/743906705)
+## [imeo Portfolio Presentation - (https://vimeo.com/743906705)
 
 ---
 
