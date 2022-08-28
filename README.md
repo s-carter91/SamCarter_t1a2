@@ -55,7 +55,7 @@ Created using Figma
 ![About Me Screenshots](/docs/aboutme-screenshots.png)
 
 ###### Contact Me
-![Contact Me Screenshots](/docs/contactme-screenshots)
+![Contact Me Screenshots](/docs/contactme-screenshots.png)
 
 ###### Blog Home
 ![Blog Home Screenshots](/docs/bloghome-screenshots.png)
