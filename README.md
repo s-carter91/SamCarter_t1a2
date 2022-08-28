@@ -1,6 +1,6 @@
-Porfolio Website Link - 
+## [Porfolio Website Link] (https://fanciful-crepe-bb0041.netlify.app/)
 
-Github Link - https://github.com/s-carter91/T1A2-Portfolio
+## [Github Link] (https://github.com/s-carter91/T1A2-Portfolio)
 
 ---
 
@@ -28,17 +28,17 @@ The features of the site were implemented to support the belief that the creator
 
 Created using Figma
 
-![Sitemap Image](/screenshots/Site%20Map.png)
+![Sitemap Image](/docs/Site%20Map.png)
 
 ## Screenshots
 
 
 
-##  Target Audience
+## Target Audience
 
-The target audience that is being hoped for here is potential employers in the IT field.
+The target audience that is being hoped for here is potential employers in the IT field. This website was made to be included in an application for web development positions.
 
-
+## Tech Stack
 
 
 
